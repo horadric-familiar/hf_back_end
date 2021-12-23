@@ -15,6 +15,7 @@ gem "aws-sdk-s3", require: false
 gem 'active_storage_validations'
 gem 'image_processing'
 gem 'figaro'
+gem 'rack-cors', require: 'rack/cors'
 
 group :development, :test do
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
