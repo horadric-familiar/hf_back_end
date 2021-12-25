@@ -1,7 +1,9 @@
+# frozen_string_literal: true
+
 FactoryBot.define do
   factory :monster do
-    name { "MyString" }
-    type { "" }
+    name { 'MyString' }
+    type { '' }
     lvl_normal { 1 }
     lvl_nightmare { 1 }
     lvl_hell { 1 }
@@ -29,10 +31,10 @@ FactoryBot.define do
     draineff_normal { 1 }
     draineff_nightmare { 1 }
     draineff_hell { 1 }
-    immunities { "MyString" }
+    immunities { 'MyString' }
     chilleff_normal { 1 }
     chilleff_nightmare { 1 }
     chilleff_hell { 1 }
-    bonuses { "MyString" }
+    bonuses { 'MyString' }
   end
 end
