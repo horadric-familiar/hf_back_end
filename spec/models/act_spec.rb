@@ -12,6 +12,6 @@ RSpec.describe Act, type: :model do
   describe 'validations' do
     it { should validate_presence_of(:act_name) }
     it { should validate_presence_of(:chap_name) }
-    it { should validate_presence_of(:map_image) }
+    # it { should validate_presence_of(:map_image) }
   end
 end

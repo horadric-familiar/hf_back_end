@@ -7,5 +7,5 @@ class Act < ApplicationRecord
 
   validates :act_name, presence: true
   validates :chap_name, presence: true
-  validates :map_image, presence: true
+  # validates :map_image, presence: true
 end
